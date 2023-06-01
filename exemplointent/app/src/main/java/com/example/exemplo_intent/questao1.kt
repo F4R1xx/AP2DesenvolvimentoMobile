@@ -19,27 +19,27 @@ class questao1 : AppCompatActivity() {
             val buttonE = findViewById<Button>(R.id.buttonE)
 
             buttonA.setOnClickListener{
-                Variaveis.potencia = +1
+                Variaveis.potencia++
                 val quero_esse = Intent(this@questao1, questao2::class.java)
                 startActivity(quero_esse)
             }
             buttonB.setOnClickListener{
-                Variaveis.beleza = +1
+                Variaveis.beleza++
                 val quero_esse = Intent(this@questao1, questao2::class.java)
                 startActivity(quero_esse)
             }
             buttonC.setOnClickListener{
-                Variaveis.custo_beneficio = +1
+                Variaveis.custo_beneficio++
                 val quero_esse = Intent(this@questao1, questao2::class.java)
                 startActivity(quero_esse)
             }
             buttonD.setOnClickListener{
-                Variaveis.ze_da_manga = +1
+                Variaveis.ze_da_manga++
                 val quero_esse = Intent(this@questao1, questao2::class.java)
                 startActivity(quero_esse)
             }
             buttonE.setOnClickListener{
-                Variaveis.arraza_role = +1
+                Variaveis.arraza_role++
                 val quero_esse = Intent(this@questao1, questao2::class.java)
                 startActivity(quero_esse)
             }

@@ -6,10 +6,10 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat.startActivity
 
-class questao3 : AppCompatActivity() {
+class questao4 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.questao3)
+        setContentView(R.layout.questao4)
 
         val buttonA = findViewById<Button>(R.id.buttonA)
         val buttonB = findViewById<Button>(R.id.buttonB)
@@ -19,27 +19,27 @@ class questao3 : AppCompatActivity() {
 
         buttonA.setOnClickListener{
             Variaveis.potencia++
-            val quero_esse = Intent(this@questao3, questao4::class.java)
+            val quero_esse = Intent(this@questao4, questao5::class.java)
             startActivity(quero_esse)
         }
         buttonB.setOnClickListener{
             Variaveis.beleza++
-            val quero_esse = Intent(this@questao3, questao4::class.java)
+            val quero_esse = Intent(this@questao4, questao5::class.java)
             startActivity(quero_esse)
         }
         buttonC.setOnClickListener{
             Variaveis.custo_beneficio++
-            val quero_esse = Intent(this@questao3, questao4::class.java)
+            val quero_esse = Intent(this@questao4, questao5::class.java)
             startActivity(quero_esse)
         }
         buttonD.setOnClickListener{
             Variaveis.ze_da_manga++
-            val quero_esse = Intent(this@questao3, questao4::class.java)
+            val quero_esse = Intent(this@questao4, questao5::class.java)
             startActivity(quero_esse)
         }
         buttonE.setOnClickListener{
             Variaveis.arraza_role++
-            val quero_esse = Intent(this@questao3, questao4::class.java)
+            val quero_esse = Intent(this@questao4, questao5::class.java)
             startActivity(quero_esse)
         }
 

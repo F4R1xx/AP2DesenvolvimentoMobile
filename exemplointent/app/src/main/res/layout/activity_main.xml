@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="88dp"
         android:text="Descubra qual carro você é!"
         android:textSize="30dp"
         android:textStyle="bold"

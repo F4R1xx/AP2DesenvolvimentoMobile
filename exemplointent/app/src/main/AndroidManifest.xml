@@ -24,6 +24,10 @@
         <activity android:name=".questao1"></activity>
         <activity android:name=".questao2"></activity>
         <activity android:name=".questao3"></activity>
+        <activity android:name=".questao4"></activity>
+        <activity android:name=".questao5"></activity>
+        <activity android:name=".questao6"></activity>
+        <activity android:name=".resultado"></activity>
     </application>
 
 </manifest>
