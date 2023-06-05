@@ -6,35 +6,63 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="461dp"
+        android:layout_height="736dp"
+        android:background="@drawable/fundofinal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
         android:id="@+id/Textinho"
         android:layout_width="259dp"
         android:layout_height="84dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="28dp"
         android:text="TextView"
         android:textSize="23dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/buttonVoltar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="628dp"
-        android:text="Inicio"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imagem"
-        android:layout_width="275dp"
-        android:layout_height="266dp"
-        android:layout_marginStart="56dp"
+        android:layout_width="373dp"
+        android:layout_height="320dp"
         android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Textinho"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/buttonVoltar"
+        android:layout_width="283dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="556dp"
+        android:backgroundTint="@color/black"
+        android:text="Inicio"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGIT"
+        android:layout_width="177dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="460dp"
+        android:backgroundTint="@color/white"
+        android:text="GitHub"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
