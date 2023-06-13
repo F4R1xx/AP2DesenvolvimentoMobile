@@ -4,17 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/red"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="461dp"
-        android:layout_height="736dp"
+        android:layout_width="549dp"
+        android:layout_height="808dp"
         android:background="@drawable/homes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.398"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298" />
 
     <Button
         android:id="@+id/buttonComecar"
@@ -37,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:text="Qual carro você é?"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,13 +49,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="411dp"
-        android:layout_height="298dp"
-        android:layout_marginBottom="216dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@drawable/home" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

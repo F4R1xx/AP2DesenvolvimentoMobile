@@ -8,4 +8,5 @@
     <color name="orange">#FF5722</color>
     <color name="yellow">#FFEB3B</color>
     <color name="purple">#77006B</color>
+    <color name="fundo">#888888</color>
 </resources>

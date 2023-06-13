@@ -3,17 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/orange"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="461dp"
-        android:layout_height="736dp"
+        android:layout_width="549dp"
+        android:layout_height="808dp"
         android:background="@drawable/questao4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.398"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298" />
 
     <TextView
         android:id="@+id/textView2"
@@ -95,13 +98,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="411dp"
-        android:layout_height="298dp"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@drawable/questao4_1" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/questao4_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

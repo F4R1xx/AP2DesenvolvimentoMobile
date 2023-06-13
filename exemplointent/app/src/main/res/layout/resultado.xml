@@ -7,14 +7,15 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="461dp"
-        android:layout_height="736dp"
+        android:layout_width="549dp"
+        android:layout_height="808dp"
         android:background="@drawable/fundofinal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.398"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintVertical_bias="0.298" />
 
     <TextView
         android:id="@+id/Textinho"
@@ -24,6 +25,7 @@
         android:text="TextView"
         android:textSize="23dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
